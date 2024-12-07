@@ -1,7 +1,7 @@
 n = int(input("Enter a number : "))
 
 def isPrime (n):
-    if n%2 == 0 :
+    if n%2 == 0 && n > 2:
         print('Given no. is not prime')
         return
     else:
